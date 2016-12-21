@@ -1,0 +1,259 @@
+.logo{
+  width: 137px;
+  height: 44px;
+}
+
+body{
+}
+
+a{
+  text-decoration: none!important;
+  color: inherit;
+}
+
+.clearFix{
+  clear: both;
+}
+
+
+.well-lg{
+  padding: 40px 0;
+}
+
+.navbar-default{
+  margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    transition: All 0.5s;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: green;
+}
+
+
+.navbar-nav>li {
+  margin-right: 10px;
+}
+
+.divider{
+  display: none;
+}
+
+
+.navbar-header{
+  margin-left: 10%;
+}
+
+.navbar-right{
+  margin-right: 0px;
+}
+
+/*==========carousel===========*/
+
+.carousel .item {
+    background:linear-gradient(#145587,#002445)!important;
+}
+
+
+.carousel-control.right,.carousel-control.left{
+  background: none;
+}
+
+.carousel-caption {
+    bottom: 23%;
+}
+
+.carousel-indicators {
+    bottom: 65px;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: black;
+    border: none;
+    transition: All 0.5s;
+}
+
+.btn-lg{
+  margin-top: 25px;
+  font-size: 14 px!important;
+  padding: 14px;
+}
+
+.btn-primary:hover {
+    background-color: green;
+}
+
+.carousel-caption p {
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.carousel-caption h1 {
+    margin-bottom: 25px;
+}
+
+
+.right, .left{
+  display: none;
+}
+
+/*==========content start here===============*/
+
+.serv{
+  margin-bottom: 50px;
+}
+
+
+.jumbotron{
+  color: black;
+  background: none;
+  padding: 0 20px!important;
+}
+
+.jumbotron h1{
+  font-size: 61px;
+}
+
+.jumbotron h2{
+  font-size: 30px;
+}
+
+.jumbotron p{
+  font-size: 14px;
+}
+
+.jumbotron .btn{
+  background-color: #565656!important;
+  color: white;
+  transition: All 0.3s!important;
+}
+
+.jumbotron .btn:hover{
+  background-color: green!important;
+}
+
+
+
+/*==========testimonials start here===============*/
+
+.testimonials{
+  background-color: green;
+  color: white;
+  padding: 45px 0px;
+}
+
+.testimonials h2, .testimonials p, .testimonials h5{
+}
+
+
+
+.testimonials h2{
+  margin-bottom: 25px!important;
+}
+
+.testimonials p{
+  line-height: 2;
+  padding: 0 30px;
+}
+
+.testimonials p::before{
+  content: '“';
+  color: yellow;
+  font-size: 62px;
+  z-index: 999;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -25px;
+}
+
+.testimonials p::after{
+  content: '”';
+  color: yellow;
+  font-size: 62px;
+  z-index: 999;
+  position: absolute;
+  margin-top: -17px;
+  margin-left: 5px;
+}
+
+.testimonials h5{
+  margin-right: 90px;
+}
+
+
+/*==========footer start here===============*/
+
+footer{
+  margin: 50px
+}
+
+.footer-col{
+  margin-right: 60px;
+  margin-left: 5px;
+  color: black;
+}
+
+
+
+
+.address{
+  width: 30%;
+}
+
+
+
+@media (max-width: 767px){
+  .divider{
+    display: inline;
+    height: 1px;
+    background-color: white;
+  }
+
+  .useful-links{
+    display: inline-block;
+    width: 40%;
+  }
+
+  .products{
+    float: right!important;
+    width: 40%;
+  }
+
+  .address{
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .footer-col{
+    margin-right: 10px;
+    margin-left: 5px;
+    color: black;
+  }
+}
+
+/*========= tabs =========*/
+@media (min-width: 768px) and (max-width: 992px){
+
+  nav ul li a{
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+
+  .navbar-nav>li {
+    margin-right: 5px;
+  }
+
+  .address{
+    float: right!important;
+  }
+}
