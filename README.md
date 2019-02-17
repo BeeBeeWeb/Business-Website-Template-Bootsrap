@@ -9,6 +9,7 @@ Link to the demo - https://bhnbhushan.github.io/Business-Website-Template-Bootsr
 - HTML5
 - CSS3
 - Bootstrap v3.3.7
+- Bootstrap Carousel
 - jQuery v1.12.4
 - FontAwesome 4.7.0
 
